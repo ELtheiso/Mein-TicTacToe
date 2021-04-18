@@ -13,8 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Mein_TicTacToe
 {
+    
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
     /// </summary>
@@ -22,7 +24,14 @@ namespace Mein_TicTacToe
     {
         public MainWindow()
         {
-            InitializeComponent();
+        
+           
+            
+        }
+
+        private void Kasten_0_0_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
