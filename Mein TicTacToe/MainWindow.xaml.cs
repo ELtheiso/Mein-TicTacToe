@@ -33,5 +33,12 @@ namespace Mein_TicTacToe
         {
             
         }
+
+        private void Kasten_0_0_Click_1(object sender, RoutedEventArgs e)
+        {
+            var hintergrund_ändern = Kasten_0_0.Foreground;
+            Kasten_0_0.Foreground = Kasten_0_0.Background;
+            Kasten_0_0.Background = hintergrund_ändern;
+        }
     }
 }
